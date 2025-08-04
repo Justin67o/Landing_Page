@@ -4,6 +4,9 @@ body{
     padding: 0;
     width: 100vw;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .top{
@@ -60,7 +63,7 @@ ul{
 .hero button{
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 1em 3em;
+    padding: 0.5em 2em;
     border-radius: 1em;
     font-weight: bold;
     font-size: 20px;
@@ -69,7 +72,7 @@ ul{
 .header{
     display: flex;
     flex-direction: column;
-    margin: 0 ;
+    margin: 0;
 
     width: 100vw;
 }
@@ -109,4 +112,42 @@ ul{
 
 #hero-main-text{
     margin-bottom: 0px;
+}
+
+.information-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.pillars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.pillar img{
+
+    width: 10em;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.pillar p{
+    font-size: 1vw;
+}
+.pillar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
 }
