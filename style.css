@@ -151,3 +151,69 @@ ul{
     align-items: center;
     width: 20vw;
 }
+
+.quote-section{
+    background-color: #e5e7eb;
+}
+
+#quote{
+    font-size: 36px;
+    font: lighter;
+    font-style: italic;
+    padding-top: 5vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    padding-bottom: 5vh;
+    align-self: center;
+}
+
+#author{
+    margin-top: 0px;
+    align-self: flex-end;
+}
+
+
+.container{
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box{
+    margin: 10%;
+    width: 70vw;
+    height: 10vh;
+    background-color: #3882f6;
+    border-radius: 1em;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left h2{
+    margin-bottom: 0px;
+}
+.left p{
+    font-size: small;
+    margin-top: 0px;
+}
+
+.right button{
+    color: white;
+    background: transparent;
+    border: solid white;
+    border-radius: 0.6em;
+    border-width: 2px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
